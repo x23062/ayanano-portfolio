@@ -14,15 +14,23 @@ function Cake () {
         <div className='productsCardText'>
           <div className='productsCardText_content'>
             <h3>概要</h3>
-            <p>詳細文</p>
+            <p>
+              身近な道具をインターフェースとして活用し、インタラクティブな映像コンテンツを制作する講義を履修した際に制作したゲームです。開発期間は３週間、個人開発でした。 <br/>
+              ケーキの空箱をインターフェースにし、底にM5Stickを取り付けることで加速度や各軸の加速度を検出するシステムを構築しました。<br/>
+              ゲーム内容は、プロジェクターで床に投影されたコース上を、ケーキの空箱を持って走り、箱の角度が閾値を超えるとカウントされ、カウントが一定数を超えると挑戦失敗となります。<br/>
+              ケーキの傾き具合をリアルタイムで描画することで、ユーザーが傾きを実感しやすくし、没入感を向上させました。さらに、レベル1〜4までの難易度を設定し、コースや制限時間を変えることで、ゲーム性を高めました。
+            </p>
           </div>
           <div className='productsCardText_content'>
             <h3>技術構成</h3>
-            <p>詳細文</p>
+            <p>
+              ・C++<br/>
+              フレームワーク（OpenGL、OpenAL、OpenCV） 
+            </p>
           </div>
           <div className='productsCardText_content'>
             <h3>担当部分</h3>
-            <p>詳細文</p>
+            <p>全て</p>
           </div>
           <div className='productsCardText_content'>
             <h3>感想</h3>
@@ -35,7 +43,7 @@ function Cake () {
           </div>
           <div className='productsCardText_content'>
             <h3>関連リンク</h3>
-            <p>詳細文</p>
+            <a href="https://www.canva.com/design/DAGcnZY2sEo/PspSVksZukJ_0a94k8Waeg/edit">発表スライド</a>
           </div>
         </div>
         <div className='backButtonContainer'>

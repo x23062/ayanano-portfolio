@@ -1,8 +1,8 @@
 import { useEffect , useRef } from 'react';
-import { useScrollStore } from './../../store/scrollStore';
-import Profile from './../Main/Profile/Profile.tsx';
-import Skills from './..//Main/Skills/Skills.tsx';
-import Products from './../Main/Products/Product.tsx';
+import { useScrollStore } from '../../store/scrollStore.tsx';
+import Profile from './Profile/Profile.tsx';
+import Skills from './Skills/Skills.tsx';
+import Products from './Products/Product.tsx';
 import './Main.css';
 
 // Extend the Window interface to include _sectionRefs

@@ -3,7 +3,7 @@ import { useScrollStore } from '../../store/scrollStore.tsx';
 import Profile from './Profile/Profile.tsx';
 import Skills from './Skills/Skills.tsx';
 import Products from './Products/Product.tsx';
-import './Main.css';
+import './main.css';
 
 // Extend the Window interface to include _sectionRefs
 declare global {

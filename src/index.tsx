@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Header from './pages/Header/Header.tsx'
-import Main from './pages/Main/mainpage.tsx'
+import Main from './pages/Main/main.tsx'
 import Footer from './pages/Footer/Footer.tsx'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './pages/scrollToTop.tsx';

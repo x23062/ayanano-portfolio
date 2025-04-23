@@ -1,0 +1,5 @@
+#profile,
+#skills,
+#products {
+  scroll-margin-top: 117px; /* ヘッダーの高さに応じて調整 */
+}
